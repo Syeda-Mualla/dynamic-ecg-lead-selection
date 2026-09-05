@@ -1,0 +1,35 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Downloaded and generated datasets
+data/raw/**
+data/cache/**
+data/processed/**
+data/external/**
+
+# Model and high-volume experiment artifacts
+outputs/checkpoints/**
+outputs/predictions/**
+outputs/logs/**
+outputs/tensorboard/**
+outputs/**/*.tmp
+outputs/**/*.part
+outputs/metrics/smoke/**
+outputs/figures/smoke/**
+
+# Local runtime files
+*.log
+*.pid
+.env.local
