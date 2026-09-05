@@ -6,7 +6,7 @@
 
 # 
 
-# This research project presents a machine learning framework for \*\*disease-specific dynamic ECG lead selection\*\* for multi-label cardiac classification. The framework investigates whether a reduced number of ECG leads can provide reliable diagnostic information while improving robustness to missing or low-quality leads.
+ This research project presents a machine learning framework for \*\*disease-specific dynamic ECG lead selection\*\* for multi-label cardiac classification. The framework investigates whether a reduced number of ECG leads can provide reliable diagnostic information while improving robustness to missing or low-quality leads.
 
 # 
 
