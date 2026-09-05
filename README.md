@@ -16,19 +16,19 @@
 
 # \## Objectives
 
-# 
 
-# \- Develop disease-specific ECG lead selection strategies.
 
-# \- Evaluate reduced-lead ECG configurations for cardiac classification.
+ \- Develop disease-specific ECG lead selection strategies.
 
-# \- Analyze model robustness to missing and low-quality ECG leads.
+ \- Evaluate reduced-lead ECG configurations for cardiac classification.
 
-# \- Incorporate uncertainty-based referral for unreliable predictions.
+ \- Analyze model robustness to missing and low-quality ECG leads.
 
-# \- Evaluate generalization through external validation.
+ \- Incorporate uncertainty-based referral for unreliable predictions.
 
-# 
+ \- Evaluate generalization through external validation.
+
+
 
 # \## Methodology
 
@@ -38,21 +38,21 @@
 
 # 
 
-# 1\. ECG preprocessing and signal-quality assessment.
+1\. ECG preprocessing and signal-quality assessment.
 
-# 2\. Disease-specific lead scoring and selection.
+2\. Disease-specific lead scoring and selection.
 
-# 3\. Hard top-4 ECG lead selection.
+3\. Hard top-4 ECG lead selection.
 
-# 4\. Multi-label cardiac disease classification.
+4\. Multi-label cardiac disease classification.
 
-# 5\. Missing-lead robustness evaluation.
+5\. Missing-lead robustness evaluation.
 
-# 6\. Uncertainty-based referral.
+6\. Uncertainty-based referral.
 
-# 7\. Comparison with the full 12-lead ECG configuration.
+7\. Comparison with the full 12-lead ECG configuration.
 
-# 8\. External validation using the Chapman–Shaoxing dataset.
+8\. External validation using the Chapman–Shaoxing dataset.
 
 # 
 
@@ -62,7 +62,7 @@
 
 # \### PTB-XL
 
-# Used for model development and primary evaluation.
+Used for model development and primary evaluation.
 
 # 
 
@@ -72,7 +72,7 @@
 
 # 
 
-# > Dataset files are not included in this repository due to dataset licensing and size considerations.
+ > Dataset files are not included in this repository due to dataset licensing and size considerations.
 
 # 
 
@@ -80,19 +80,19 @@
 
 # 
 
-# \- Python
+\- Python
 
-# \- NumPy
+\- NumPy
 
-# \- Pandas
+\- Pandas
 
-# \- Scikit-learn
+\- Scikit-learn
 
-# \- SciPy
+\- SciPy
 
-# \- Matplotlib
+\- Matplotlib
 
-# \- Machine Learning
+\- Machine Learning
 
 # 
 
@@ -102,15 +102,15 @@
 
 # ```text
 
-# ├── notebooks/        # Research notebooks and experiments
+ ├── notebooks/        # Research notebooks and experiments
 
-# ├── src/              # Source code
+ ├── src/              # Source code
 
-# ├── configs/           # Configuration files
+ ├── configs/           # Configuration files
 
-# ├── results/           # Experimental results and figures
+ ├── results/           # Experimental results and figures
 
-# ├── requirements.txt   # Python dependencies
+ ├── requirements.txt   # Python dependencies
 
-# └── README.md          # Project documentation
+ └── README.md          # Project documentation
 
